@@ -1,0 +1,26 @@
+
+
+[7] Barros, J. P., Biscaia, L. and Vitória, M. "Java2Sequence - A Tool for the Visualization of Object-Oriented Programs in Introductory Programming," in 2011. pp. 369.
+[9] Bellettini, C., Marchetto, A. and Trentini, A. "WebUml: Reverse Engineering of Web Applications," in 2004. pp. 1662-1669.
+[11] Boklund, A., Christiernin, S., Johansson, C. and Lindell, H. "A Comprative Study of Forward and Reverse Engineering in UML Tools," in Proceedings of the International Conference on Applied Computing: Salamanca 2007, Spain, 2007.
+[15] Budhkar, S. and Gopal, A. "Reverse Engineering Java Code to Class Diagram: An Experience Report". 2011. International Journal of Computer Applications, vol 29, pp. 36-43.
+[28] Dobiš, M. and Majtás, L. "Mining Design Patterns from Existing Projects using Static and Run-Time Analysis". 2011. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), vol 4980 LNCS, pp. 62-75.
+[35] Fernández-Sáez, A. M., Chaudron, M. R. V., Genero, M. and Ramos, I. "Are Forward Designed Or Reverse-Engineered UML Diagrams More Helpful for Code Maintenance?: A Controlled Experiment," in 2013. pp. 60-71.
+[48] Hu, S. -., Li, Q. -., Chu, H. and Chen, P. "Aspect Mining from the Class Diagram in Program Comprehension". 2006. Xi'an Dianzi Keji Daxue Xuebao/Journal of Xidian University, vol 33, pp. 550-556.
+[52] Jain, A. and Tayal, D. K. "On Reverse Engineering an Object-Oriented Code into UML Class Diagrams Incorporating Extensible Mechanisms". 2008. ACM SIGSOFT Software Engineering Notes, vol 33, ACM. pp. 9.
+[55] Kang, Y., Park, C. and Wu, C. "Reverse-Engineering 1-n Associations from Java Bytecode using Alias Analysis". 2007. Information and Software Technology, vol 49, pp. 81.
+[60] Koch, J. W., Cooper, K., Bastani, F., Chung, L. and Zhang, K. "Aovis: Reverse Engineering and Visualization of aspectj/java Source Code". 2011.
+[66] Kumar, J., Kumar, I. R., Reddy, M. B. and Narendra, L. "Analyzing the Modern Tool-Supported UML-Based Static Reverse Engineering.". 2012. International Journal of Advanced Research in Computer Science, vol 3,
+[68] Lee, H. and Yoo, C. "A Form Driven Object-Oriented Reverse Engineering Methodology". 2000. Inf Syst, vol 25, pp. 235.
+[79] Osman, H. and Chaudron, M. "An Assessment of Reverse Engineering Capabilities of UML CASE Tools," in 2nd Annual International Conference Proceedings on Software Engineering Application, 2011. pp. 7-12.
+[90] Rountev, A., Volgin, O., Reddoch, M., Koskinen, J. and Lehmonen, T. "Static Control-Flow Analysis for Reverse Engineering of UML Sequence Diagrams; Analysis of Ten Reverse Engineering Tools," in Proceedings of the 6th ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering; Advanced Techniques in Computing Sciences and Software Engineering, 2005; 2010. pp. 96; 389-102; 394.
+[91] Russell, C. "RESCU Reverse Engineering Source Code to UML". 2002. Honours project report, Department of Computing and Electical Engineering, Heriot-Watt University,
+[93] Scandura, J. M. "Automated Methods for Constructing Language Specific Systems for Reverse Engineering Source Code into Abstract Syntax Trees with Attributes in a Form that can More Easily be Displayed, Understood and/or Modified". 2000.
+[95] Sharma, M. N. and Chandel, M. G. S. "Generates UML Diagrams from Java Code through Reverse Engineering". 2012. IJECCE, vol 3, pp. 232-237.
+[98] Su, Y., Hu, S. -., Wang, Y. -. and Chen, P. "Software Reverse Engineering Based on Crosscutting Concerns Recovery". 2006. Xi Tong Gong Cheng Yu Dian Zi Ji Shu/Systems Engineering and Electronics, vol 28, pp. 1415-14191429.
+[100] Sutton, A. N. "Accurately Reverse Engineering UML Class Models from C++ Source Code". 2005. Kent State University.
+[108] Vinita, Jain, A. and Tayal, D. K. "On Reverse Engineering an Object-Oriented Code into UML Class Diagrams Incorporating Extensible Mechanisms". 2008. SIGSOFT Softw.Eng.Notes, vol 33, ACM. pp. 9:1-9:9.
+[118] Xu, Y., Li, Q., Chen, P., Shi, H. and Xia, H. "Research on Representation Technology of UML Activity Diagram in Reverse Engineering [J]". 2006. Computer Engineering, vol 24, pp. 023.
+
+
+

@@ -1,0 +1,1 @@
+(Abstract:"reverse engineering" and Abstract:UML) and (Abstract:"program comprehension" or Abstract:"design recovery" or Abstract:"class diagram" or Abstract:recovery or Abstract:static or Abstract:dynamic)
