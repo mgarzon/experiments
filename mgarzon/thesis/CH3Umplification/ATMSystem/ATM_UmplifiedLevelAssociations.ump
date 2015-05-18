@@ -1,0 +1,25 @@
+class Session {}
+
+class ATM {
+ Integer  id;
+  place;
+  bankName;
+  bankAddress;
+}
+
+class Transaction {}
+
+class Withdrawal { isA Transaction; }
+
+class Deposit { isA Transaction ;}
+
+class Transfer { isA Transaction; }
+class Inquiry { isA Transaction; }
+
+association {
+   0..1  ATM --  *  Session ;
+   1 Session  -- 0..* Transaction;
+  
+  
+}
+

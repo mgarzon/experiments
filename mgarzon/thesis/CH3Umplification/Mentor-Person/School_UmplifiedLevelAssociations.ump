@@ -1,0 +1,34 @@
+class Student { 
+  
+ depend java.util.*;
+ isA Person;
+   Integer id; 
+ lazy Boolean isActive; 
+ immutable name; 
+ const Integer MAX_PER_GROUP = 10; 
+ after getName {
+  if (name == null) { 
+   throw new RuntimeException("Error");
+  }
+ }
+   
+}
+
+class Person {
+String name;
+}
+
+
+class Mentor { 
+
+ depend java.util.Set;
+ isA Person;
+ 
+  0..1 -- 0..* Student; 
+ public String toString() {
+      return(
+         (name==null ? " " : name) + " " +
+         students.size()+ " students"
+      );
+ }
+}

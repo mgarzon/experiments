@@ -1,0 +1,47 @@
+class Student { 
+  
+ depend java.util.*;
+ isA Person;
+   Integer id; 
+ lazy Boolean isActive; 
+ immutable name; 
+ const Integer MAX_PER_GROUP = 10; 
+ after getName {
+  if (name == null) { 
+   throw new RuntimeException("Error");
+  }
+ }
+public Mentor getMentor() { return mentor; } 
+public void setMentor(Mentor mentor) { this.mentor = mentor; } 
+}
+
+class Person {
+String name;
+}
+
+class Mentor { 
+
+ depend java.util.Set;
+ isA Person;
+ 
+  Mentor() {}
+ public Set<Student> students;
+ public Set<Student> getStudents() {
+  return students; 
+ } 
+ public void setStudents (Set<Student>students) { 
+  this.students = students;
+ } 
+ public void addStudent( Student aStudent){
+  students.add(aStudent); 
+ }
+ public void removeStudent(Student aStudent) {
+  students.remove(aStudent);
+ } 
+ public String toString() {
+      return(
+         (name==null ? " " : name) + " " +
+         students.size()+ " students"
+      );
+ }
+}

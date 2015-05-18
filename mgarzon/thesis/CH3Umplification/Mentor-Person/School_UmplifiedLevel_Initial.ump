@@ -1,0 +1,73 @@
+class Student { 
+  
+ depend java.util.*;
+ isA Person;
+  
+ public Mentor mentor; 
+ public static final int  MAX_PER_GROUP = 10;
+ private int id;
+ private String name; 
+ private boolean isActive;
+ 
+ public Student(int id,String name){
+     id = id; name = name;
+ }
+ public String getName(){ 
+  String aName = name;
+  if (name == null) { throw new  RuntimeException("Error");} 
+  return aName;
+}  
+public Integer getId() { 
+   return id; 
+} 
+public void setId (Integer id) {    
+   this.id = id;
+}	
+public boolean getIsActive() { 
+   return isActive;
+}
+public void setIsActive ( boolean  aIsActive) {
+  isActive = aIsActive;
+}
+public Mentor getMentor() { return mentor; } 
+public void setMentor(Mentor mentor) { this.mentor = mentor; } 
+}
+
+class Person {
+	private String name;
+	
+	public String getName() {
+      return this.name;
+    }
+	public void setName(String name){
+		this.name= name;
+	}
+}
+
+
+class Mentor { 
+
+ depend java.util.Set;
+ isA Person;
+ 
+ Mentor() {}
+ public Set<Student> students;
+ public Set<Student> getStudents() {
+  return students; 
+ } 
+ public void setStudents (Set<Student>students) { 
+  this.students = students;
+ } 
+ public void addStudent( Student aStudent){
+  students.add(aStudent); 
+ }
+ public void removeStudent(Student aStudent) {
+  students.remove(aStudent);
+ } 
+ public String toString() {
+      return(
+         (name==null ? " " : name) + " " +
+         students.size()+ " students"
+      );
+ }
+}

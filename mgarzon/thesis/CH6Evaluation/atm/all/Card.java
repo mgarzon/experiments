@@ -1,0 +1,1 @@
+/* * ATM Example system - file Card.java * * copyright (c) 2001 - Russell C. Bjork * */ package banking;/** Representation for customer's ATM card */public class Card{    public Card(int number)    {        this.number = number;    }        public int getNumber()    {        return number;    }        private int number;}
